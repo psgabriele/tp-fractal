@@ -1,0 +1,30 @@
+Este trabalho apresenta 3 fractais diferentes, cada um com seu axioma, ângulo e regra de produção, todos já definidos no main de cada programa, não sendo necessário que o usuário digite os inputs de entrada para eles.
+
+Há um código separado para cada fractal, todos podendo ser compilados em ambiente windows ou linux.
+
+A IDE usada para desenvolver os códigos foi o Visual Studio Code, configurada para compilar e rodar programas em C.
+
+O compilador utilizado foi o gcc.
+
+Para compilar e rodar os códigos de cada fractal no Prompt de Comando, é necessário acessar o caminho do diretório em que foi salvo e descompactado o zip, e os seguintes comandos podem ser executados, a depender do sistema operacional:
+
+Windows:
+
+Para compilar: gcc fractal1.c -o fractal1.exe
+Para rodar: .\fractal1.exe -lm
+
+Linux:
+
+Para compilar: gcc fractal1.c -o fractal1.exe
+Para rodar: ./fractal1.exe -lm
+
+
+Obs1.: Esses mesmos comandos podem ser usados para todos os fractais, basta apenas alterar o nome do programa do fractal que se deseja compilar e executar.
+
+A seguir está o nome do programa e o fractal correspondente a ele:
+
+fractal1.c - Fractal Floco de Neve Onda Senoidal 1 de Von Koch
+fractal2.c - Fractal Prenchimento de Espaço de Hilbert
+fractal3.c - Fractal definido por mim
+
+As saídas dos programas acontecem pelo próprio terminal e são gravadas em um arquivo após serem executados.
