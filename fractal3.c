@@ -15,7 +15,7 @@ void iteraString(const char *origem, char *destino, const char *regraA, const ch
 int main() {
     double angulo = 90.0 * M_PI / 180.0; // ângulo de rotação em radianos
     const char *axioma = "A";
-    const char *regraA = "FB+FB+FB+FB-";
+    const char *regraA = "+FB+FB+FB+FB";
     const char *regraB = "-AF+BF+FB-FA";
     char string[MAX_STRING_TAM];
 
