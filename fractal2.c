@@ -7,7 +7,7 @@
 #include <math.h>
 
 #define MAX_ITERACAO 4
-#define MAX_STRING_TAM 65536
+#define MAX_STRING_TAM 65000
 
 void iteraString(const char *origem, char *destino, const char *regraX, const char *regraY);
 

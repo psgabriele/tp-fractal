@@ -1,4 +1,5 @@
-//Fractal definido por mim
+/* Um fractal definido por você que gere uma cadeia de polígonos simples que tenha pelo
+menos duas regras como as curvas de preenchimento de espaço de Peano e Hilbert. */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -7,14 +8,14 @@
 #include <math.h>
 
 #define MAX_ITERACAO 4
-#define MAX_STRING_TAM 65536
+#define MAX_STRING_TAM 65000
 
 void iteraString(const char *origem, char *destino, const char *regraA, const char *regraB);
 
 int main() {
     double angulo = 90.0 * M_PI / 180.0; // ângulo de rotação em radianos
     const char *axioma = "A";
-    const char *regraA = "FB+FB+FB+FB";
+    const char *regraA = "FB+FB+FB+FB-";
     const char *regraB = "-AF+BF+FB-FA";
     char string[MAX_STRING_TAM];
 

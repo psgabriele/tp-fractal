@@ -10,7 +10,7 @@
 #include <string.h>
 
 #define MAX_ITERACAO 4
-#define MAX_STRING_TAM 65536
+#define MAX_STRING_TAM 65000
 
 void geraFractal(FILE *file, char *string, int iteracao, double angulo, const char *axioma, const char *regra);
 void iteraString(FILE *file, const char *origem, char *destino, const char *regra);
@@ -66,7 +66,6 @@ void geraFractal(FILE *file, char *string, int iteracao, double angulo, const ch
         } else if(charAtual == '-'){
             string[index++] = '-';
         } else if(charAtual == 'F'){
-            // Aplica a rotação do segmento
             string[index++] = 'F';
             string[index++] = '-';
             string[index++] = 'F';
